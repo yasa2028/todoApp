@@ -28,6 +28,13 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_add" />
 
-    <include layout="@layout/content_main" />
+    <include
+        layout="@layout/content_main"
+        android:layout_height="629dp" />
+
+    <ListView
+        android:id="@+id/todoList"
+        android:layout_width="match_parent"
+        android:layout_height="648dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
